@@ -11,11 +11,11 @@ local purple = 0x925CAF
 gpu.setForeground(purple)
 
 local links = {
-    ["json"] = "https://raw.githubusercontent.com/Rikenbacker/gt_oc_infusion/main/json.lua",
-    ["ra_gui"] = "https://raw.githubusercontent.com/Rikenbacker/gt_oc_infusion/main/ra_gui.lua",
-    ["essentia"] = "https://raw.githubusercontent.com/Rikenbacker/gt_oc_infusion/main/essentia.json",
-    ["recipes"] = "https://raw.githubusercontent.com/Rikenbacker/gt_oc_infusion/main/recipes.json",
-    ["runic_matrix"] = "https://raw.githubusercontent.com/Rikenbacker/gt_oc_infusion/main/runic_matrix.lua"
+    ["json"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/json.lua",
+    ["ra_gui"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/ra_gui.lua",
+    ["essentia"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/essentia.json",
+    ["recipes"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/recipes.json",
+    ["runic_matrix"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/runic_matrix.lua"
 }
 
 gpu.set(width / 2 - 13, height / 2 - 2, "Installation  Infusion")

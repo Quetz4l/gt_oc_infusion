@@ -11,15 +11,15 @@ local raGui = require("ra_gui")
 local gpu = component.gpu
 
 local settings = {
-  refreshInterval = 1.0,         -- Время обновления в секундах основного цикла
+  refreshInterval = 3.0,         -- Время обновления в секундах основного цикла
   refreshPiedistalInterval = 2,  -- Время обновления сундука с материалом для инфузии в секундах. 
   refreshMonitorInterval = 0.4,  -- Время обновления экрана
-  inputSide = sides.north,
-  altarSide = sides.top,
-  piedestalSide = sides.south,
-  outputSide = sides.down,
+  inputSide = sides.west,
+  altarSide = sides.bottom,
+  piedestalSide = sides.east,
+  outputSide = sides.south,
   redstonePiedestalSide = sides.south,
-  redstoneInfusionSide = sides.north,
+  redstoneInfusionSide = sides.top,
   recipesFileName = "recipes.json",
   essentiaFileName = "essentia.json",
   minimumVisCount = 10
@@ -49,9 +49,8 @@ local textLines = {
     "Current status: $stage:s,%s$",
     "Recipe: $recipeName:s,%s$",
     "$message$",
-    "$craftingName$"--[[,
-    "$debugInfo$"
-]]--
+    "$craftingName$",
+    --"$debugInfo$"
 }
 
 local Essentia = {}
