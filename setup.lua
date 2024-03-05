@@ -15,7 +15,8 @@ local links = {
     ["ra_gui"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/ra_gui.lua",
     ["essentia"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/essentia.json",
     ["recipes"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/recipes.json",
-    ["runic_matrix"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/runic_matrix.lua"
+    ["runic_matrix"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/runic_matrix.lua",
+	["recipe_add"] = "https://raw.githubusercontent.com/Quetz4l/gt_oc_infusion/main/recipe_add.lua"
 }
 
 gpu.set(width / 2 - 13, height / 2 - 2, "Installation  Infusion")
